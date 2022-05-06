@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/AraGroupKE/ngazi/_apis/build/status/Wandonium.js-e2e-express-server?branchName=main)](https://dev.azure.com/AraGroupKE/ngazi/_build/latest?definitionId=1&branchName=main)
+
 ---
 page_type: sample
 languages:
