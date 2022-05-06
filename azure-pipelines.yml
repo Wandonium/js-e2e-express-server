@@ -21,8 +21,6 @@ steps:
 
 - script: npm test
 
-- task: PublishTestResults@2
-  condition: succeededOrFailed()
+- task: PublishBuildArtifacts@1
   inputs:
-    testRunner: JUnit
-    testResultsFiles: '**/test-results.xml'
+    PathtoPublish: '$(System.DefaultWorkingDirectory)'
